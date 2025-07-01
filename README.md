@@ -1,6 +1,4 @@
-Here’s a **professional README** with a **License** section tailored for your **Voice Cloning with Bark/Coqui TTS** project:
 
----
 
 ## 🎙️ Voice Cloning with Bark/Coqui TTS
 
