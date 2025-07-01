@@ -18,20 +18,6 @@ This project demonstrates how to clone a speaker's voice using advanced Text-to-
 
 ---
 
-### 📁 Directory Structure
-
-```
-voice-cloning/
-│
-├── user_audio.wav          # Reference audio of the speaker
-├── output.wav              # Synthesized output in cloned voice
-├── Voice_Cloning.ipynb     # Main notebook
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
-```
-
----
-
 ### ⚙️ Installation
 
 1. Clone the repository:
@@ -78,26 +64,10 @@ The generated voice will be saved as `output.wav`, and you can play it directly 
 
 ---
 
-### 💡 Example
-
-```python
-from TTS.api import TTS
-tts = TTS(model_name="tts_models/multilingual/multi-dataset/your_model", progress_bar=True, gpu=True)
-
-tts.tts_to_file(
-    text="Hello! I am cloned from your voice.",
-    speaker_wav="user_audio.wav",
-    file_path="output.wav"
-)
-```
-
----
-
 ### 📌 Notes
 
 * The reference voice should be mono-channel and recorded at 16 kHz or 22 kHz.
 * GPU support is highly recommended for faster synthesis.
-* Not all TTS models support speaker embedding — choose accordingly from [Coqui TTS Models](https://github.com/coqui-ai/TTS#pretrained-models).
 
 ---
 
@@ -134,10 +104,5 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 **Sreeja Mondal**
 B.Tech, IIIT Kalyani
-Email: [sreejamondal.ai@gmail.com](mailto:sreejamondal.ai@gmail.com)
-LinkedIn: \[Your LinkedIn Profile]
-GitHub: \[Your GitHub Link]
+Email: [msreeja137@gmail.com]
 
----
-
-Let me know if you’d like this as a `.md` or `.txt` file or want to include logo, demo link, or badges like “Made with Python”, “Open Source”, etc.
